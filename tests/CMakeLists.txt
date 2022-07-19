@@ -1,0 +1,10 @@
+macro(do_the_needful arg_testname arg_filename)
+  add_executable(${arg_testname} ${arg_filename})
+  target_include_directories(${arg_testname} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+  target_link_libraries(${arg_testname} project_warnings src ${SDL_LIBS})
+  add_test(${arg_testname} ${arg_testname})
+endmacro()
+
+do_the_needful(test_serializer test_serializer.cpp)
+do_the_needful(test_deserializer test_deserializer.cpp)
+do_the_needful(test_serialize_deserialize test_serialize_deserialize.cpp)
