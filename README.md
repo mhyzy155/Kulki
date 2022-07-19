@@ -4,7 +4,7 @@ Remake kultowej gry Kulki stworzonej przez Jarosława Lewandowskiego. Gra zosta�
 ![Zrzut ekranu gry](images/screenshots.png)
 
 ## Windows
-Gotowy program do uruchomienia w 64-bitowym systemie Windows jest dostępny do pobrania w zakładce "Releases".
+Gotowy program do uruchomienia w 64-bitowym systemie Windows jest dostępny do pobrania w zakładce ["Releases"](https://github.com/mhyzy155/Kulki/releases).
 
 ## Linux
 ### Kompilacja
